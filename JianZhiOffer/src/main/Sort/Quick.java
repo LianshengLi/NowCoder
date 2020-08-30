@@ -12,6 +12,7 @@ public class Quick implements Sort{
     }
 
     private void sort(Comparable[] a, int lo, int hi) {
+
         //当范围内只剩一个元素的时候return（大小为1的子数组不需要继续切分）
         if(hi <= lo) return;
         //返回基线
